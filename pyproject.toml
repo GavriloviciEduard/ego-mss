@@ -7,7 +7,7 @@ profile = "black"
 [tool.poetry]
 name = "ego-mss"
 version = "0.0.1"
-description = "An module for taking screenshots of applications searched by their names, based on tried-and-true Python MSS."
+description = "A module for taking screenshots of applications searched by their names, based on tried-and-true Python MSS."
 authors = ["Gavrilovici Eduard <eddiegavrilovici@gmail.com>"]
 
 [tool.poetry.dependencies]
