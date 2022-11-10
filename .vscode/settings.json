@@ -7,12 +7,13 @@
     },
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": ["--line-length=120"],
-    "python.isort.args": ["--profile", "black"],
+    "python.sortImports.args": ["--profile", "black"],
     "python.linting.banditEnabled": true,
     "python.linting.banditArgs": ["-s", "B101"],
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=120",
         "--extend-ignore=E203"
-    ]
+    ],
+    "python.linting.pylintEnabled": true,
 }
